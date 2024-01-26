@@ -1,6 +1,7 @@
+import "../css/props.css";
 function PropsComponent(props) {
   return (
-    <div>
+    <div class="css">
       <h3>
         Hai {props.name}
         <br></br>Welcome to {props.course} class
